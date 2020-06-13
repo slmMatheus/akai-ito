@@ -67,7 +67,7 @@ export default {
   name: 'App',
   mixins: [ ConfigTemplate ],
   data: () => ({
-    dialog: false,
+    dialog: true,
     senha: '',
   }),
   methods: {
